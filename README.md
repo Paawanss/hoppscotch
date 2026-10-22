@@ -1,3 +1,4 @@
+> **Note (CA-3 case study):** Large integers above 2^53 − 1 in JSON request bodies may lose precision when sent (see issue #6612). Workaround: send such IDs as strings.
 <div align="center">
   <a href="https://hoppscotch.io">
     <img
